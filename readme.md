@@ -1,6 +1,6 @@
 #Savings Multiplied Instructions
 
-##Part 1
+###Part 1
 Inside the doc folder in this repository you will find two files:  auction-page.png and home-page.png.  Imagine that you have been handed these two files to you by a designer.  It is your task as a web designer to build these two pages using ONLY html and CSS.  
 
 At minimum you should create the following files:

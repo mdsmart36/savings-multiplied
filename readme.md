@@ -24,3 +24,14 @@ Technologies you should use:
 1. HTML
 2. CSS
 3. Bootstrap!!!!!
+
+
+Colors:
+-  Dark Teal: #69C4CC
+-  Light Blue Text: #D5F1F0
+-  Medium Blue Text: #2A959E
+-  Light Teal: #CFEFEE
+-  Bright Pink: #E9168C
+-  Bright Purple: #6F308B
+-  Dark Purple: #6F1549
+

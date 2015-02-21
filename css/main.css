@@ -1,0 +1,24 @@
+.top-div {
+  background: #CFEFEE;
+  height: 250px;
+}
+
+.main-div {
+  background: #69C4CC;
+  height: 750px;
+}
+
+footer {
+  
+}
+
+nav ul li {
+  text-decoration: none;
+  display: inline;
+  padding: 30px;
+}
+
+nav {
+  background: #E9168C;
+  padding: 10px;
+}

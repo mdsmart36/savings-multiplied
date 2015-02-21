@@ -8,6 +8,24 @@
   height: 750px;
 }
 
+.top-inner {
+  background: white;
+  max-width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  
+}
+
+.main-inner {
+  background: white;
+}
+
+.pill {
+  color: white:
+  background: gray;
+  border-radius: 10px;
+}
+
 footer {
   
 }
@@ -19,6 +37,7 @@ nav ul li {
 }
 
 nav {
-  background: #E9168C;
+  background: #F3CECD;
   padding: 10px;
 }
+

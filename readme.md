@@ -23,8 +23,6 @@ Technologies you should use:
 
 1. HTML
 2. CSS
-3. Bootstrap!!!!!
-
 
 Colors:
 -  Dark Teal: #69C4CC

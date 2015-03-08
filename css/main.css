@@ -1,43 +1,183 @@
-.top-div {
-  background: #CFEFEE;
-  height: 250px;
+/* ----------- STANDARD SELECTORS ---------------*/
+/*
+* {
+  border: 1px solid black;
 }
+*/
 
-.main-div {
-  background: #69C4CC;
-  height: 750px;
-}
-
-.top-inner {
-  background: white;
-  max-width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
-  
-}
-
-.main-inner {
-  background: white;
-}
-
-.pill {
-  color: white:
-  background: gray;
-  border-radius: 10px;
-}
-
-footer {
-  
-}
-
-nav ul li {
+ul li {
   text-decoration: none;
   display: inline;
   padding: 30px;
+  text-align: center;  
 }
 
 nav {
   background: #F3CECD;
-  padding: 10px;
+  padding: 3px;
+  padding-left: 15%;
 }
 
+p {
+  font-family: 'Corben', cursive;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* ----------- CLASSES AND ID'S ---------------*/
+
+.top-div {
+  margin-left: 5%;
+  margin-right: 5%;
+  background: #CFEFEE;
+  height: 200px;
+  max-width: 1280px;
+  margin-top: 0;
+  position: relative;
+}
+
+.top-inner {
+  background: white;
+  width: 80%;
+  height: 100px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-left: 10%;
+  margin-top: 50px;
+  position: absolute;
+  bottom: 0;
+}
+
+.main-div {
+  margin-left: 5%;
+  margin-right: 5%;
+  background: #69C4CC;
+  height: 750px;
+  max-width: 1280px;
+  position: relative;
+}
+
+.main-inner-left {
+  background: white;
+  width: 40%;
+  height: 600px;
+  border-bottom-left-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10%;
+  position: absolute;
+  top: 0;
+}
+
+.main-inner-right {
+  background: white;
+  width: 40%;
+  height: 600px;
+  border-bottom-right-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50%;
+  position: absolute;
+  top: 0;
+}
+
+.main-inner-bottom-2 {
+  position: absolute;
+  bottom: 50px;
+  left: 280px;
+  text-align: center;
+  color: white;
+}
+
+.img-float-right {
+  float: right;
+  padding-bottom: 5px;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  height: 125px;
+}
+
+.tagline {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 375px;
+}
+
+.pad-10 {
+  padding-right: 0;
+}
+
+
+.pillbox {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  border-radius: 30px;
+}
+
+.baby-blue {
+  background: #69C4CC;
+}
+
+.green {
+  background: green;
+}
+
+.purple {
+  background: purple;
+}
+
+.pink {
+  background: #f89faf;
+}
+
+.white {
+  background: white;
+}
+
+.light-blue-text {
+  color: #D5F1F0;
+}
+
+
+.main-inner-bottom-1 {
+  display: inline-block;
+  position: absolute;
+  bottom: 110px;
+  left: 250px;
+
+}
+
+.repeat-x {
+  background-image: url("../images/homepage/dotted_line_44x9.png");
+  background-repeat: repeat-x;
+}
+
+.auction-inner-left {
+  background: white;
+  width: 30%;
+  height: 600px;
+  border-bottom-left-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10%;
+  position: absolute;
+  top: 0;
+}
+
+.auction-inner-right {
+  background: white;
+  width: 50%;
+  height: 600px;
+  border-bottom-right-radius: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 40%;
+  position: absolute;
+  top: 0;
+}
